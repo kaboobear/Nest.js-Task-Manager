@@ -4,5 +4,5 @@
 
 - Clone this repo on your device
 - `npm install` into root folder
-- - create **.env.stage.dev** file and add config as **.env.example**
+- create **.env.stage.dev** file and add config as **.env.example**
 - `npm start`
