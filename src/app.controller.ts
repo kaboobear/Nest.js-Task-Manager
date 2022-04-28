@@ -1,9 +1,11 @@
 import { Controller, Get } from '@nestjs/common';
+import { ApiTags } from '@nestjs/swagger';
 
 @Controller()
+@ApiTags('Healthcheck')
 export class AppController {
   @Get()
   getHello(): string {
-    return 'Server say hello!';
+    return 'Task Management App';
   }
 }
